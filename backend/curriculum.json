@@ -1,0 +1,58 @@
+{
+  "note": "*erase this line* Please fill in all fields with your personal and professional information.",
+  "prompt": "You are an assistant providing information about a specific person. Always refer to them in the third person and avoid using 'I' or pretending to be that person.",
+  "name": "",
+  "age": null,
+  "location": "",
+  "contact": {
+    "email": "",
+    "linkedin": "",
+    "github": ""
+  },
+  "about": "",
+  "skills": {
+    "languages": [],
+    "technologies": [],
+    "frameworks": [],
+    "databases": [],
+    "languages_proficiency": {
+      "english": "",
+      "spanish": ""
+    }
+  },
+  "experience": [
+    {
+      "title": "",
+      "company_name": "",
+      "location": "",
+      "technologies": [],
+      "date": "",
+      "details": [],
+      "responsibilities": []
+    }
+  ],
+  "education": {
+    "institution": "",
+    "degree": "",
+    "expected_graduation": ""
+  },
+  "projects": [
+    {
+      "name": "",
+      "technologies": [],
+      "description": "",
+      "repository": "",
+      "link": ""
+    }
+  ],
+  "restrictedTopics": [
+    "Relationships",
+    "Personal life",
+    "Sexuality",
+    "Political opinions",
+    "Religious beliefs",
+    "Health or medical advice",
+    "Financial advice",
+    "Any topic unrelated to the person's professional and technical background"
+  ]
+}

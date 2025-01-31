@@ -1,0 +1,17 @@
+<div class="bg-black text-green-500 h-screen font-mono">
+    <div id="terminal" class="p-4">
+      <div
+        id="chat-output"
+        class="whitespace-pre-wrap max-h-96 overflow-y-auto"
+      ></div>
+      <input
+      type="text"
+      id="command-input"
+      class="bg-black text-green-500 border-b border-green-500 focus:outline-none w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 h-12 px-4 py-2"
+      placeholder="Enter your command..."
+      (keyup)="onKeyUp($event, $event.target)"
+      (keydown.enter)="onCommandEntered($event)"
+      autofocus
+    />  
+    </div>
+  </div>
